@@ -1,0 +1,712 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    height: 100%;
+}
+body{
+    background-color: rgb(242, 247, 247);
+    display: flex;
+    flex-direction: column;
+
+}
+.class1{
+    width: 40%;
+
+    margin-left: 10%;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.8rem;
+    height: 70px;
+    text-align: center;
+
+}
+
+label{
+    margin-top: 5%;
+    margin-left: 25%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+}
+.footer-form label{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 0.7em;
+}
+
+#Nom, #prenom, #mail, #Pword, #word{
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 400px;
+    border-radius: 2rem;
+}
+#nom, #Mail{
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 200px;
+    border-radius: 2rem;
+}
+textarea{
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 400px;
+
+}
+#btn{
+    margin-top: 3%;
+    margin-left: 70%;
+    width: 100px;
+    border-radius: 2rem;
+}
+#btn1{
+    margin-top: 3%;
+    margin-left: 70%;
+    margin-bottom: 2%;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2rem;
+    font-size: 1em;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+nav{
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.autent{
+    background-color: rgb(57, 133, 254);
+    height: 75px;
+}
+h2{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+
+}
+.search{
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    width: 400px;
+}
+.search input{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.search input[type="text"]{
+    background-color: #fff;
+    width: 240px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+
+}
+.search input[type="submit"]{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 100px;
+    border: none;
+    height: 35px;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff;
+}
+.search input[type="submit"]:hover{
+    background: #ff5722;
+}
+.autent2{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+.autent1{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    margin-left: 20%;
+    margin-right: 2%;
+
+}
+
+.au {
+    margin-top: 1.5%;
+}
+
+.liens{
+    background-color: rgb(57, 133, 254);
+    height: 60px;
+    text-align: center;
+}
+nav ul li{
+
+    padding: 0;
+    float: left;
+    width: 300px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+
+    font-size: 1.5em;
+    text-decoration: none;
+    list-style-type: none;
+}
+.gal{
+
+    margin-top: 1%;
+    margin-left: 30%;
+}
+.apd{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+nav ul li a{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 20;
+    padding: 5px;
+    width: 130px;
+}
+
+nav ul li ul li{
+    display: none;
+    margin-left: 30%;
+}
+nav ul li:hover ul li{
+    display: block;
+}
+.content1{
+    display: flex;
+    margin-top: 5%;
+}
+.im1, .im2, .im3, .im4, .im5, .im6, .im7, .im8{
+    width: 20em;
+    margin-left: 30%;
+}
+.ima{
+    height: 8em;
+    width: 200px;
+    position: relative;
+    left: 45%;
+    color: white;
+
+}
+.mere{
+    flex: 1 0 auto;
+
+}
+footer{
+
+    width: 100%;
+    flex-shrink: 0;
+    border-top: 3px dotted white;
+
+    background-color: rgb(102, 97, 241);
+
+}
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+/*service*/
+.footer-service h3, .footer-droit h3, .footer-form h3, .footer-reseau h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.footer-droit h3{
+    margin-top: 30%;
+}
+.footer-service a{
+    padding: 5px 0;
+    text-decoration: none;
+}
+.ul1, .ul2, .class1{
+    list-style-type: none;
+}
+.ul1 li{
+    padding: 2px 0;
+}
+.ul1 a{
+    text-decoration: none;
+    color: white;
+}
+.ul1 a:hover{
+    color: cornsilk;
+}
+/*.fa,.ti,.yo,.ma{
+    width: 20px;
+}*/
+.ul2 img{
+    width: 40px;
+    margin: 10px 10px;
+}
+.ul2{
+    position: relative;
+    right: 10px;
+}
+.content1 p{
+    width: 500px;
+    margin-left: 5%;
+}
+.ul2 a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.contenu1{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+    color: white;
+
+
+}
+/*medias querie*/
+@media screen and(max-width:1300px){
+    .contenu1{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .bloc{
+        width: 40%;
+        margin: 0 0;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2) {
+        margin-bottom: 50px;
+    }
+}
+@media screen and(max-width:800px) {
+    .contenu1{
+        width: 320px;
+    }
+    .bloc{
+        width: 300px;
+        margin: 30px 30px;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .bloc:nth-child(1){
+        margin-top: 0;
+    }
+}
+.slider{
+    width: 100%;
+    background-color: black;
+    margin-bottom: 2%;
+}
+.slider img{
+    width: 100%;
+    height: 500px;
+}
+.suivant, .precedent{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+}
+.suivant{
+    right: 1rem;
+}
+.precedent{
+    left: 1rem;
+}
+/*page nounou*/
+.grid{
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    /* grid-gap: 10px; */
+}
+
+.gridElement{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-item{
+    /* width: 300px;
+    height: 200px;
+    background-color: black;*/
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item>*{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+.formulaire{
+    margin-left: 25%;
+    margin-top: 3%;
+    width: 50%;
+    height: auto;
+    margin-bottom: 5%;
+}
+.form{
+    border: 3px solid blueviolet;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+.class2{
+    border: 3px solid blueviolet;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
+.class3{
+    border: 3px solid blueviolet;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
+#N, #P, #M, #Pa, #Na, #E, #masculin, #féminin, #Y, #Mar, #K, #T, #A, #Plat, #Coc, #Port, #tierk, #Em, #Se{
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 450px;
+    border-radius: 2rem;
+}
+.sexe, .compte, .local{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.class2 label{
+    margin-top: 5%;
+    margin-left: 17%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+}
+#btn2{
+    margin-top: 3%;
+    margin-left: 70%;
+    margin-bottom: 2%;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2rem;
+    font-size: 1em;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+.categorie{
+    background-color: black;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.cat1{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.cag1{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 40%;
+    
+    margin-bottom: 3%;
+}
+.nou{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 15%;
+
+}
+.cuis{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 40%;
+}
+.cuisine{
+    margin-left: 45%;
+    font-size: 1.7em;
+    color: white;
+    text-decoration: none;
+}
+.nounou{
+    margin-left: 2%;
+    font-size: 1.7em;
+    color: white;
+    text-decoration: none;
+}
+.cat2{
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.menage{
+    margin-left: 2%;
+    font-size: 1.7em;
+    color: white;
+    text-decoration: none;
+}
+.autres{
+    margin-left: 45%;
+    font-size: 1.7em;
+    color: white;
+    text-decoration: none;
+}
+.voir{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.choix{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    width: 80%;
+
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+.image{
+    height: 50%;
+    width: 30%;
+    margin-left: 5%;
+}
+.kibi{
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+}
+.image img{
+    border: 2px solid black;
+}
+.texte{
+    margin-left: 20%;
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#btnV{
+    margin-bottom: 5%;
+    margin-left: 40%;
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-size: 1.2em;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+.h2{
+    color: black;
+    margin-left: 35%;
+    font-size: 1.5em;
+    margin-top: 2%;
+}
+.num{
+    color: rgb(249, 23, 23);
+    font-weight: bold;
+}
+.h4{
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: red;
+    width: 45%;
+}
+h4{
+
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+.class4{
+    border: 3px solid blueviolet;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
+#bout{
+    margin-top: 3%;
+    margin-left: 70%;
+    margin-bottom: 2%;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2rem;
+    font-size: 1em;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+.grid1{
+    max-width: 800px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    /* grid-gap: 10px; */
+}
+
+.gridElement1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item1{
+    /* width: 300px;
+    height: 200px;
+    background-color: black;*/
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item1>*{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+.entete{
+    display: flex;
+    flex-direction: row;
+
+    width: 40%;
+    height: 200px;
+    margin-left:35%;
+}
+.adjoua{
+    border: 2px solid blue;
+    width: 40%;
+    height: 70%;
+    margin-top: 6%;
+
+}
+.ad{
+    margin-top: 10%;
+    margin-right: 2%;
+}
+.H2{
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+.aide{
+    width: 80%;
+    margin-left: 10%;
+}
+.aide p{
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+
